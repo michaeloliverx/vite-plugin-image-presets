@@ -2,7 +2,7 @@
 
 Load and transform images using presets.
 
-## Example
+## Usage
 
 ```ts
 import image from "./images/example.jpg?preset=coverimage";
@@ -79,3 +79,9 @@ declare module "*preset=coverimage" {
   export default _default;
 }
 ```
+
+## Examples
+
+- [examples/svelte-kit-ts-mdsvex](examples/svelte-kit-ts-mdsvex)
+
+- [vanilla-ts](examples/vanilla-ts)
